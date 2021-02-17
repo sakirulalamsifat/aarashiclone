@@ -1,0 +1,277 @@
+.navBar {
+  background-color: #232f3e;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navBar span img {
+  margin-left: 150px;
+  transition: 0.5s;
+}
+
+.firstlinks {
+  position: relative;
+  display: flex;
+}
+
+.firstlinks img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.links {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.links li {
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.links li:hover {
+  cursor: pointer;
+  color: #ff3c20;
+  transform: scale(1.1);
+}
+span {
+  color: white;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.loginInfo {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputBox {
+  width: 100%;
+  margin-top: auto;
+}
+
+.inputs {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin-top: 10px;
+}
+
+.holder {
+  width: 800px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border: none;
+  background-color: white;
+  color: #999;
+}
+
+.boxes {
+  width: 18rem;
+  height: 40px;
+  background-color: #ff3c20;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.boxes:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.boxes span {
+  margin-top: 10px;
+
+  justify-content: space-evenly;
+}
+
+.signin {
+  float: left;
+}
+
+.selector {
+  height: 40px;
+  width: 400px;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  background-color: #ff3c20;
+  border: none;
+  color: white;
+}
+
+.carosoul {
+  margin-top: 20px;
+}
+
+.cards {
+  list-style: none;
+}
+
+.slide {
+  transition: 0.5s;
+}
+
+.slide:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.cards li {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999;
+}
+.lists th td {
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.pillow {
+  opacity: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 390px;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.overlay2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 212px;
+  width: 390px;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.promo {
+  opacity: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay3 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 1370px;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.welcomeMsg {
+  color: white;
+  font-size: 12px;
+  line-height: 40px;
+  clear: both;
+  margin-left: 180px;
+}
+
+.headerRight {
+  display: inline-block;
+  text-align: right;
+  transition: 0.5s;
+}
+
+.headerRight ul li:hover {
+  cursor: pointer;
+  color: #ff3c20;
+  transform: scale(1.1);
+}
+
+.currency {
+  color: white;
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+  line-height: 40px;
+}
+
+.lists tr {
+  color: rgb(134, 131, 131);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.lists tr:hover {
+  color: #ff3c20;
+  transform: translateX(5px);
+}
+
+.currency li {
+  margin-left: 15px;
+}
+
+.pillow:hover .overlay {
+  opacity: 1;
+}
+
+.pillow:hover .overlay2 {
+  opacity: 1;
+}
+
+.promo:hover .overlay3 {
+  opacity: 1;
+}
+
+.offer {
+  margin-left: 165px;
+  opacity: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay4 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 290px;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.offer:hover .overlay4 {
+  opacity: 1;
+}
